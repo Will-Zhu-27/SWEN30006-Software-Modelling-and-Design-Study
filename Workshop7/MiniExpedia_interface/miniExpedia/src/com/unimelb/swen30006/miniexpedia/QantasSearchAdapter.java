@@ -5,6 +5,8 @@ import java.util.List;
 
 import com.unimelb.swen30006.Qantas.QantasFlight;
 import com.unimelb.swen30006.Qantas.QantasSearch;
+import com.unimelb.swen30006.miniexpedia.interfaceAdapter.IFlightAdapter;
+import com.unimelb.swen30006.miniexpedia.interfaceAdapter.IFlightSearchAdapter;
 
 public class QantasSearchAdapter implements IFlightSearchAdapter {
 	private QantasSearch theQantasSearch;

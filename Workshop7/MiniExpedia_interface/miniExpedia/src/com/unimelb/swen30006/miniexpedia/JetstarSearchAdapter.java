@@ -1,12 +1,12 @@
 package com.unimelb.swen30006.miniexpedia;
 
-import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 import com.unimelb.swen30006.Jetstar.JetstarFlight;
 import com.unimelb.swen30006.Jetstar.JetstarSearch;
+import com.unimelb.swen30006.miniexpedia.interfaceAdapter.IFlightAdapter;
+import com.unimelb.swen30006.miniexpedia.interfaceAdapter.IFlightSearchAdapter;
 
 public class JetstarSearchAdapter implements IFlightSearchAdapter {
 	private JetstarSearch theJetstarSearch;

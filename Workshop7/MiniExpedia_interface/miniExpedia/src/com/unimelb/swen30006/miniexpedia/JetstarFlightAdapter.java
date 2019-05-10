@@ -3,6 +3,7 @@ package com.unimelb.swen30006.miniexpedia;
 import java.util.ArrayList;
 
 import com.unimelb.swen30006.Jetstar.JetstarFlight;
+import com.unimelb.swen30006.miniexpedia.interfaceAdapter.IFlightAdapter;
 
 public class JetstarFlightAdapter implements IFlightAdapter{
 	public JetstarFlight flight;
@@ -11,8 +12,7 @@ public class JetstarFlightAdapter implements IFlightAdapter{
 	}
 	
 	public String flightInfoToString(ArrayList<IFlightAdapter> flightList, FlightRequestInfo requestInfo) {
-		System.out.println(requestInfo.toString());
-		String ret = new String();
+		String ret = requestInfo.toString();
 		for (int i = 0; i < flightList.size(); i++) {
 			JetstarFlightAdapter flightAdapter = (JetstarFlightAdapter)(flightList.get(i));
 			String flightInfo = "Jetstar: form " + flightAdapter.flight.from() + " to " + flightAdapter.flight.to() + " depart at " +

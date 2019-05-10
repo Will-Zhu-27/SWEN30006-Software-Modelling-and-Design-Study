@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import com.unimelb.swen30006.Jetstar.JetstarBook;
 import com.unimelb.swen30006.Jetstar.JetstarFlight;
 import com.unimelb.swen30006.Jetstar.JetstarPassenger;
+import com.unimelb.swen30006.miniexpedia.interfaceAdapter.IFlightAdapter;
+import com.unimelb.swen30006.miniexpedia.interfaceAdapter.IFlightBookAdapter;
+import com.unimelb.swen30006.miniexpedia.interfaceAdapter.IFlightPassengerAdapter;
 
 public class JetstarBookAdapter implements IFlightBookAdapter {
 	private JetstarBook book;

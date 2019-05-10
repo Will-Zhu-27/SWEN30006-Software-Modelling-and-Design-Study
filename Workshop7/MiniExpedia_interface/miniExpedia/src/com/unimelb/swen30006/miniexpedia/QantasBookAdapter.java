@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import com.unimelb.swen30006.Qantas.QantasBook;
 import com.unimelb.swen30006.Qantas.QantasFlight;
 import com.unimelb.swen30006.Qantas.QantasPassenger;
+import com.unimelb.swen30006.miniexpedia.interfaceAdapter.IFlightAdapter;
+import com.unimelb.swen30006.miniexpedia.interfaceAdapter.IFlightBookAdapter;
+import com.unimelb.swen30006.miniexpedia.interfaceAdapter.IFlightPassengerAdapter;
 
 public class QantasBookAdapter implements IFlightBookAdapter {
 	public QantasBook book;
